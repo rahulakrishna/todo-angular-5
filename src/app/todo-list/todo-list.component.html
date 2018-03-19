@@ -1,0 +1,9 @@
+<div class="list card">
+  <app-add-todo class="add-todo"></app-add-todo>
+  <div class="todo" *ngFor="let todo of todos" (click)="markAsDone(todo)">
+    {{todo.name}}
+  </div>
+  <div class="todo done" *ngFor="let todo of done">
+    {{todo.name}}
+  </div>
+</div>

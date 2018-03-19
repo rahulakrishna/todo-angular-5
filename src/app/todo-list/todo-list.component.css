@@ -1,0 +1,29 @@
+.list{
+    margin: 100px;
+    margin-top: 0px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.todo{
+    font-size: 24px;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    left: -10px;
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.add-todo{
+    font-size: 24px;
+    border-bottom: 1px solid #ededed;
+    position: relative;
+    left: -10px;
+    width: 100%;
+}
+
+.done{
+    text-decoration: line-through;
+}
